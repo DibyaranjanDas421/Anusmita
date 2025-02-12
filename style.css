@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
   box-sizing: border-box;
 }
 
@@ -9,8 +9,7 @@ body {
   display: grid;
   place-items: center;
   overflow: hidden;
-  margin: 20px; /* Adjust the margin as needed */
-  padding: 20px; 
+
   box-shadow: "0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5)"
 }
 
@@ -22,7 +21,7 @@ main {
 }
 
 .item {
-  width: 200px;
+  width: 250px;
   height: 300px;
   list-style-type: none;
   position: absolute;
@@ -192,6 +191,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     z-index: 10;
+    margin-bottom: 250px;
 }
 .music-player audio {
     width: 300px;
@@ -205,4 +205,5 @@ main {
     color: white;
     padding: 10px 0;
     z-index: 10;
+    margin-bottom: 135px;
 }

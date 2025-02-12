@@ -151,8 +151,8 @@ main {
     & button        { font-size: 0.7rem; }
   }
   .item {
-    width: 130px;
-    height: 220px;
+    width: 90px;
+    height: 150px;
 
     &:nth-child(3) { left: 50%; }
     &:nth-child(4) { left: calc(50% + 140px); }
@@ -191,7 +191,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     z-index: 10;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 .music-player audio {
     width: 300px;
@@ -205,5 +205,5 @@ main {
     color: white;
     padding: 10px 0;
     z-index: 10;
-    margin-bottom: 135px;
+    margin-bottom: 80px;
 }
